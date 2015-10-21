@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f9b8b6c-c5a4-44b2-aa49-ddcafcd552a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shengli/producer_consumer/ProducerConsumerApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shengli/wait_notify/WaitNotifyApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java_multithreads.iws" />
@@ -27,19 +27,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProducerConsumerApp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shengli/producer_consumer/ProducerConsumerApp.java">
+      <file leaf-file-name="WaitNotifyApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shengli/wait_notify/WaitNotifyApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48547718">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.373444">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#308#317#0" expanded="true" />
-                <element signature="e#428#664#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#699#935#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#370#615#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#650#895#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="271" column="29" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shengli/syncblock/SyncBlockApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shengli/countdownlatches/CountDownLatchesApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shengli/producer_consumer/ProducerConsumerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shengli/wait_notify/WaitNotifyApp.java" />
       </list>
     </option>
   </component>
@@ -194,6 +203,10 @@
               <option name="myItemId" value="shengli" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wait_notify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -218,10 +231,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="shengli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="producer_consumer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,27 +258,7 @@
       <recent name="com.shengli.syncblock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerConsumerApp">
-    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shengli.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.shengli.basic.App" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="java_multithreads" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.WaitNotifyApp">
     <configuration default="false" name="SyncApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -338,6 +327,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.shengli.producer_consumer.ProducerConsumerApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_multithreads" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WaitNotifyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shengli.wait_notify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.shengli.wait_notify.WaitNotifyApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -608,19 +617,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.App" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SyncApp" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SyncBlockApp" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CountDownLatchesApp" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ProducerConsumerApp" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SyncApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SyncBlockApp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CountDownLatchesApp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ProducerConsumerApp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WaitNotifyApp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ProducerConsumerApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CountDownLatchesApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SyncBlockApp" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SyncApp" />
-        <item index="4" class="java.lang.String" itemvalue="Application.App" />
+        <item index="0" class="java.lang.String" itemvalue="Application.WaitNotifyApp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ProducerConsumerApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CountDownLatchesApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SyncBlockApp" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SyncApp" />
       </list>
     </recent_temporary>
   </component>
@@ -637,12 +646,12 @@
       <option name="number" value="Default" />
       <updated>1445329135697</updated>
       <workItem from="1445329137028" duration="5825000" />
-      <workItem from="1445394359295" duration="3045000" />
+      <workItem from="1445394359295" duration="7231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8870000" />
+    <option name="totallyTimeSpent" value="13056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1403" height="877" extended-state="0" />
@@ -700,8 +709,8 @@
         <state vertical-scroll-proportion="-0.7962578">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#879#880#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -772,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shengli/producer_consumer/ProducerConsumerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48547718">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.373444">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#308#317#0" expanded="true" />
@@ -781,6 +790,27 @@
             <element signature="e#663#664#0" expanded="true" />
             <element signature="e#699#935#0" expanded="true" />
             <element signature="e#934#935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="271" column="29" selection-start-line="271" selection-start-column="29" selection-end-line="271" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shengli/wait_notify/WaitNotifyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.373444">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#370#615#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#650#895#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
           </folding>
         </state>
       </provider>
